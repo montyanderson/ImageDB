@@ -1,0 +1,26 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: Arial;
+}
+
+nav {
+	background: #1abc9c;
+	padding: 1em;
+	padding-left: 15%;
+	color: white;
+	margin-bottom: 1em;
+}
+
+section {
+	margin: 1em;
+}
+
+#images > img {
+	width: 70%;
+	margin: 2% 15%;
+	border: 0.2em solid #ccc;
+}

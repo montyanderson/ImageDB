@@ -1,6 +1,9 @@
 ImageDB
 =======
 
+Please note that **ImageDB is not currently fit for production**. At the moment, it's
+purely for educational and testing purposes.
+
 Install
 -------
 

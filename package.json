@@ -1,13 +1,17 @@
 {
-  "name": "imagedb",
+  "name": "ImageDB",
   "version": "1.0.0",
-  "description": "",
+  "description": "A database feed of user-uploaded, user-browsable images. Made with Node.js, Express, Socket.io, ect, MongoJS, and MongoDB.",
   "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/montyanderson/ImageDB"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Monty Anderson, http://montyanderson.net",
-  "license": "ISC",
+  "license": "GPL v2",
   "dependencies": {
     "ect": "^0.5.9",
     "express": "^4.12.3",

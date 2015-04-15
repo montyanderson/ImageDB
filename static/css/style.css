@@ -17,10 +17,18 @@ nav {
 
 section {
 	margin: 1em;
+	margin: 2% 15%;
+}
+
+section > h1 {
+	margin-bottom: 2%;
+}
+
+#url {
+	width: 95%;
 }
 
 #images > img {
-	width: 70%;
-	margin: 2% 15%;
+	width: 100%;
 	border: 0.2em solid #ccc;
 }

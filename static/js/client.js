@@ -10,9 +10,13 @@ $(document).ready(function() {
 		$("#images").html(imgHTML + $("#images").html());
 	});
 
+	socket.on("err", function(error) {
+		alert(error);
+	});
+
 	$("#upload").click(function() {
 		console.log("data");
-		socket.emit("submit", $("#upload-url").val());
+		socket.emit("submit", $("#url").val());
 	});
 
 });
